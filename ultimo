@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diego Molina Videography — Portfolio</title>
+  <meta name="description" content="Videography portfolio: short‑form content, music videos, promos, and event coverage by Diego Molina.">
+  <meta property="og:title" content="Diego Molina Videography — Portfolio">
+  <meta property="og:description" content="Videography portfolio: short‑form content, music videos, promos, and event coverage by Diego Molina.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta name="theme-color" content="#0b0b0f">
+  <style>
+    :root{
+      --bg:#0b0b0f;--card:#13131a;--ink:#e9ecf1;--muted:#a5adbb;--accent:#8fd3ff;--pill:#1b1b25;
+      --radius:18px;--radius-sm:12px;--shadow:0 12px 40px rgba(0,0,0,.35)
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .wrap{max-width:1040px;margin-inline:auto;padding:28px}
+    header{position:sticky;top:0;z-index:10;background:linear-gradient(180deg, rgba(11,11,15,.95), rgba(11,11,15,.7) 65%, rgba(11,11,15,0));backdrop-filter:saturate(140%) blur(8px)}
+    .nav{display:flex;gap:14px;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#1f2937,#0ea5e9);display:grid;place-items:center;font-weight:800}
+    .logo span{font-size:18px}
+    .brand h1{font-size:18px;margin:0}
+    .pill{border:1px solid #2a2a38;background:var(--pill);padding:8px 12px;border-radius:999px;color:var(--muted)}
+    .cta{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{padding:10px 14px;border-radius:12px;border:1px solid #2a2a38;background:#11121a;color:var(--ink);box-shadow:var(--shadow)}
+    .btn.primary{background:linear-gradient(135deg,#0ea5e9,#22d3ee);color:#031018;font-weight:700}
+    .btn:hover{transform:translateY(-1px)}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;padding:24px 0}
+    .card{background:var(--card);border:1px solid #242436;border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+    .kicker{color:var(--muted);letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+    h2{margin:8px 0 10px;font-size:32px}
+    .lead{color:#d7dde8;line-height:1.6}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    .chip{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;background:#171824;border:1px solid #2b2c3c;color:#b5bdd0;font-size:12px}
+    .section{margin-top:36px}
+    .video{position:relative;padding-top:56.25%;overflow:hidden;border-radius:var(--radius-sm);background:#05060a;border:1px solid #222337}
+    .thumb{aspect-ratio:16/9;border-radius:var(--radius-sm);overflow:hidden;background:#0c0d14;border:1px solid #212235}
+    .thumb video{width:100%;height:100%;object-fit:cover}
+    .list{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+    .services li{list-style:none;margin:0;padding:0}
+    .footer{margin:40px 0 20px;color:var(--muted);font-size:14px}
+    .contact-card{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.contact-card{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:1fr 1fr}}
+    @media (max-width:640px){.grid.cols-3,.grid.cols-2{grid-template-columns:1fr}}
+    /* small form styles */
+    .field{width:100%;margin:6px 0 12px;padding:12px 14px;border-radius:10px;background:#0f1018;border:1px solid #26273a;color:#e6ebf3}
+    input,textarea{font:inherit}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Diego Molina",
+    "jobTitle":"Videographer",
+    "url":"",
+    "address": {"@type":"PostalAddress","addressRegion":"CO","addressCountry":"US"},
+    "sameAs":["https://instagram.com/diegomolina0"],
+    "worksFor":{"@type":"Organization","name":"Diego Molina Videography"}
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="logo" aria-label="Logo"><span>DM</span></div>
+        <div>
+          <h1>Diego Molina Videography</h1>
+          <div class="pill">Videography • Colorado</div>
+        </div>
+      </div>
+      <div class="cta">
+        <a class="btn" href="#reel">Watch Reel</a>
+        <a class="btn primary" href="#contact">Book a Shoot</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="card">
+        <div class="kicker">Portfolio</div>
+        <h2>Cinematic stories for brands, bands, and builders.</h2>
+        <p class="lead">Short‑form content, music videos, commercial promos, and event recaps. Shot on Sony FX30 + gimbal, graded in DaVinci/After Effects.</p>
+        <div class="list">
+          <span class="chip">Reels/TikTok</span>
+          <span class="chip">Music Videos</span>
+          <span class="chip">Construction Promos</span>
+          <span class="chip">Event Coverage</span>
+          <span class="chip">Color Grading</span>
+        </div>
+        <div class="cta" style="margin-top:8px">
+          <a class="btn" href="#work">Featured Work</a>
+          <a class="btn" href="#services">Services</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="card" id="reel">
+        <div class="video">
+          <!-- Play your reel directly from the repo. Upload a file at /videos/reel.mp4 and optional poster at /posters/reel.jpg -->
+          <video controls preload="metadata" poster="./posters/reel.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000">
+            <source src="./videos/reel.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section id="work" class="section">
+      <div class="kicker">Featured Work</div>
+      <h2>Recent projects</h2>
+      <div class="grid cols-3">
+        <div class="thumb">
+          <video controls preload="metadata" poster="./posters/project1.jpg">
+            <source src="./videos/project1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="thumb">
+          <video controls preload="metadata" poster="./posters/project2.jpg">
+            <source src="./videos/project2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="thumb">
+          <video controls preload="metadata" poster="./posters/project3.jpg">
+            <source src="./videos/project3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <p class="kicker" style="margin-top:10px">Tip: Keep videos ≤ 100 MB each for easy GitHub uploads. For larger files, consider YouTube/Vimeo or a CDN.</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="kicker">Services</div>
+      <h2>What I deliver</h2>
+      <div class="grid cols-3">
+        <div class="card services">
+          <h3>Short‑Form Packs</h3>
+          <ul>
+            <li>8–12 edited clips (9:16)</li>
+            <li>Hook‑first scripting</li>
+            <li>Captions & branding</li>
+          </ul>
+        </div>
+        <div class="card services">
+          <h3>Music & Events</h3>
+          <ul>
+            <li>Multi‑cam performance</li>
+            <li>Vlog recap cuts</li>
+            <li>Stage LED assets</li>
+          </ul>
+        </div>
+        <div class="card services">
+          <h3>Commercial Promos</h3>
+          <ul>
+            <li>30–60s spots</li>
+            <li>On‑site shooting (CO/UT)</li>
+            <li>Color grade & mix</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gear / Social Proof -->
+    <section class="section">
+      <div class="kicker">Capabilities</div>
+      <h2>Gear & Workflow</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <p class="lead">Sony FX30 + Sigma 18‑50mm, DJI RS3 Pro, Hollyland wireless mics, LED lighting, DaVinci + After Effects pipeline.</p>
+          <div class="list">
+            <span class="chip">4K60</span>
+            <span class="chip">S‑Log3 → Rec.709</span>
+            <span class="chip">Gimbal/Tripod</span>
+            <span class="chip">Drone (Part 107)</span>
+          </div>
+        </div>
+        <div class="card">
+          <p class="lead">Follow and reach out:</p>
+          <div class="list">
+            <a class="chip" href="https://instagram.com/diegomolina0" target="_blank" rel="noopener">Instagram @diegomolina0</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="kicker">Contact</div>
+      <h2>Book a shoot</h2>
+      <div class="contact-card">
+        <div class="card">
+          <form id="inquiry" onsubmit="return handleSubmit(event)">
+            <label>Name<br><input required name="name" class="field"></label>
+            <label>Email<br><input required type="email" name="email" class="field"></label>
+            <label>Project<br><textarea required name="msg" rows="5" class="field" placeholder="Tell me about your project…"></textarea></label>
+            <button class="btn primary" type="submit">Send inquiry</button>
+            <p id="form-msg" class="kicker" style="margin-top:8px"></p>
+          </form>
+        </div>
+        <div class="card">
+          <p class="lead">Prefer DMs? Reach out directly:</p>
+          <div class="list">
+            <a class="chip" href="mailto:diegomj212002@gmail.com?subject=Video%20Inquiry&body=Hey%20Diego,%20I%27m%20interested%20in…">Email</a>
+            <a class="chip" href="tel:+19702009490">Call</a>
+            <a class="chip" href="https://wa.me/19702009490?text=Hi%20Diego,%20I%27m%20interested%20in%20a%20video%20project" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="chip" href="./diego-molina.vcf" download>Save Contact (.vcf)</a>
+          </div>
+          <p class="kicker">Tip: print a QR that points to <code>https://yourdomain.com/?utm_source=card</code> to measure card scans.</p>
+        </div>
+      </div>
+    </section>
+
+    <p class="footer">© <span id="y"></span> Diego Molina Videography • Grand Junction, CO</p>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent=new Date().getFullYear();
+    function handleSubmit(e){
+      e.preventDefault();
+      const data=new FormData(e.target);
+      const name=data.get('name');
+      const email=data.get('email');
+      const msg=data.get('msg');
+      const mailto=`mailto:diegomj212002@gmail.com?subject=New%20Inquiry%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(msg+"\n\nReply to: "+email)}`;
+      window.location.href=mailto;
+      document.getElementById('form-msg').textContent='Opening your email app…';
+      return false;
+    }
+  </script>
+</body>
+</html>
